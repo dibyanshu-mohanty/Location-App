@@ -1,9 +1,7 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-const apiKey = "pk.eyJ1IjoiZGRldm0iLCJhIjoiY2t1YzRoa2Z0MHR4bTJvbXh3NTUzdWxreSJ9.RQEAr5xis4iTmFohXyufGw";
 
-// const googleApiKey= "AIzaSyCiCFfy-6bNBti7cP_PH0hZjEH50XZ6knM";
 class LocationHelper {
   static String generatedLocationPreviewImage(
       {required double latitude, required double longitude}) {
